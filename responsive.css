@@ -1,0 +1,92 @@
+@media screen and (max-width:400px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .white-header {
+        display: flex;
+        flex-direction: row;
+        height: 66px;
+        margin: 0;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .white-header img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .upper-logos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 20px;
+        
+    }
+
+    .main-text {
+        grid-column: 1/2;
+        padding: 0px;
+        margin: 0;
+    }
+
+    .main-text h1 {
+        margin: 25px 0;
+        text-align: center;
+    }
+
+    .main-text p {
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 38px;
+        margin: 0 35px 50px;
+    }
+
+    .statistics {
+        padding-top: 5px;
+    }
+
+    .statistics img {
+        margin: 10px;
+    }
+
+    .call-with-team {
+        grid-column: 1/3;
+    }
+
+    .account-manager {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        padding: 17px;
+        margin: 0;
+        grid-column: 1/3;
+    }
+
+    .account-manager h1 {
+        grid-column: 1/ 3;
+    }
+
+    .btn-box {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-self: end;
+        margin: 0;
+    }
+
+    .btn-box button {
+        padding: 5px 30px;
+    }
+
+    .shooting img {
+        width: 330px;
+    }
+}
