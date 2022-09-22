@@ -9,7 +9,9 @@
 .container {
     display: grid;
     grid-template-columns: 66px auto;
-    height: 100vh;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 200px;
 }
 
 /* upper part */
@@ -34,7 +36,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #1E183C;
-    padding: 25px 55px;
+    padding: 25px 55px 50px;
     grid-gap: 15px;
 }
 
@@ -368,3 +370,25 @@
     max-width: 100%;
     height: auto;
 }
+
+/* main graphs for 2nd window */
+
+.main-graphs {
+    display: grid;
+    text-align: center;
+    grid-column: 1/4;
+    background-color: #ffffff0c;
+    border-radius: 24px;
+}
+
+.warning {
+    margin-top: 30px;
+}
+
+.graph-items {
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    margin: 30px 55px;
+}
+
